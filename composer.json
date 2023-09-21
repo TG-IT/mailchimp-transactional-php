@@ -1,5 +1,5 @@
 {
-    "name": "mailchimp/transactional",
+    "name": "tgit/mailchimp-transactional-php",
     "version": "1.0.50",
     "description": "",
     "keywords": [
@@ -20,13 +20,10 @@
         "php": ">=7.2",
         "ext-curl": "*",
         "ext-json": "*",
-        "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.4 || ^7.2"
+        "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7",
-        "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~2.12"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
